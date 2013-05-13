@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BC54EFEF174157B800BF8DF2 /* TFHpple.m in Sources */ = {isa = PBXBuildFile; fileRef = BC54EFEA174157B800BF8DF2 /* TFHpple.m */; };
+		BC54EFF0174157B800BF8DF2 /* TFHppleElement.m in Sources */ = {isa = PBXBuildFile; fileRef = BC54EFEC174157B800BF8DF2 /* TFHppleElement.m */; };
+		BC54EFF1174157B800BF8DF2 /* XPathQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = BC54EFEE174157B800BF8DF2 /* XPathQuery.m */; };
+		BC54EFF317415B3500BF8DF2 /* libxml2.2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = BC54EFF217415B3500BF8DF2 /* libxml2.2.dylib */; };
+		BC54EFFB17416BEB00BF8DF2 /* 111-user.png in Resources */ = {isa = PBXBuildFile; fileRef = BC54EFF717416BEB00BF8DF2 /* 111-user.png */; };
+		BC54EFFC17416BEB00BF8DF2 /* 124-bullhorn.png in Resources */ = {isa = PBXBuildFile; fileRef = BC54EFF817416BEB00BF8DF2 /* 124-bullhorn.png */; };
+		BC54EFFD17416BEB00BF8DF2 /* 29-heart.png in Resources */ = {isa = PBXBuildFile; fileRef = BC54EFF917416BEB00BF8DF2 /* 29-heart.png */; };
+		BC54EFFE17416BEB00BF8DF2 /* 96-book.png in Resources */ = {isa = PBXBuildFile; fileRef = BC54EFFA17416BEB00BF8DF2 /* 96-book.png */; };
+		BC54EFFF1741705800BF8DF2 /* UMSermonsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCAA483917410B5500390DCA /* UMSermonsTableViewController.m */; };
 		BCAA48031741019200390DCA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCAA48021741019200390DCA /* UIKit.framework */; };
 		BCAA48051741019200390DCA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCAA48041741019200390DCA /* Foundation.framework */; };
 		BCAA48071741019200390DCA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCAA48061741019200390DCA /* CoreGraphics.framework */; };
@@ -21,6 +30,17 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BC54EFE9174157B800BF8DF2 /* TFHpple.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFHpple.h; sourceTree = "<group>"; };
+		BC54EFEA174157B800BF8DF2 /* TFHpple.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFHpple.m; sourceTree = "<group>"; };
+		BC54EFEB174157B800BF8DF2 /* TFHppleElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFHppleElement.h; sourceTree = "<group>"; };
+		BC54EFEC174157B800BF8DF2 /* TFHppleElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFHppleElement.m; sourceTree = "<group>"; };
+		BC54EFED174157B800BF8DF2 /* XPathQuery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XPathQuery.h; sourceTree = "<group>"; };
+		BC54EFEE174157B800BF8DF2 /* XPathQuery.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XPathQuery.m; sourceTree = "<group>"; };
+		BC54EFF217415B3500BF8DF2 /* libxml2.2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.2.dylib; path = usr/lib/libxml2.2.dylib; sourceTree = SDKROOT; };
+		BC54EFF717416BEB00BF8DF2 /* 111-user.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "111-user.png"; sourceTree = "<group>"; };
+		BC54EFF817416BEB00BF8DF2 /* 124-bullhorn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "124-bullhorn.png"; sourceTree = "<group>"; };
+		BC54EFF917416BEB00BF8DF2 /* 29-heart.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "29-heart.png"; sourceTree = "<group>"; };
+		BC54EFFA17416BEB00BF8DF2 /* 96-book.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "96-book.png"; sourceTree = "<group>"; };
 		BCAA47FF1741019200390DCA /* ummaapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ummaapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BCAA48021741019200390DCA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		BCAA48041741019200390DCA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -46,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BC54EFF317415B3500BF8DF2 /* libxml2.2.dylib in Frameworks */,
 				BCAA48031741019200390DCA /* UIKit.framework in Frameworks */,
 				BCAA48051741019200390DCA /* Foundation.framework in Frameworks */,
 				BCAA48071741019200390DCA /* CoreGraphics.framework in Frameworks */,
@@ -55,6 +76,38 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BC54EFE7174157B800BF8DF2 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				BC54EFE8174157B800BF8DF2 /* hpple */,
+			);
+			path = Libraries;
+			sourceTree = "<group>";
+		};
+		BC54EFE8174157B800BF8DF2 /* hpple */ = {
+			isa = PBXGroup;
+			children = (
+				BC54EFE9174157B800BF8DF2 /* TFHpple.h */,
+				BC54EFEA174157B800BF8DF2 /* TFHpple.m */,
+				BC54EFEB174157B800BF8DF2 /* TFHppleElement.h */,
+				BC54EFEC174157B800BF8DF2 /* TFHppleElement.m */,
+				BC54EFED174157B800BF8DF2 /* XPathQuery.h */,
+				BC54EFEE174157B800BF8DF2 /* XPathQuery.m */,
+			);
+			path = hpple;
+			sourceTree = "<group>";
+		};
+		BC54EFF617416BEB00BF8DF2 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				BC54EFF717416BEB00BF8DF2 /* 111-user.png */,
+				BC54EFF817416BEB00BF8DF2 /* 124-bullhorn.png */,
+				BC54EFF917416BEB00BF8DF2 /* 29-heart.png */,
+				BC54EFFA17416BEB00BF8DF2 /* 96-book.png */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
 		BCAA47F61741019200390DCA = {
 			isa = PBXGroup;
 			children = (
@@ -75,6 +128,7 @@
 		BCAA48011741019200390DCA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				BC54EFF217415B3500BF8DF2 /* libxml2.2.dylib */,
 				BCAA48021741019200390DCA /* UIKit.framework */,
 				BCAA48041741019200390DCA /* Foundation.framework */,
 				BCAA48061741019200390DCA /* CoreGraphics.framework */,
@@ -85,6 +139,7 @@
 		BCAA48081741019200390DCA /* ummaapp */ = {
 			isa = PBXGroup;
 			children = (
+				BC54EFE7174157B800BF8DF2 /* Libraries */,
 				BCAA483017410A4900390DCA /* Controllers */,
 				BCAA48111741019200390DCA /* UMAppDelegate.h */,
 				BCAA48121741019200390DCA /* UMAppDelegate.m */,
@@ -97,6 +152,7 @@
 		BCAA48091741019200390DCA /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				BC54EFF617416BEB00BF8DF2 /* images */,
 				BCAA480A1741019200390DCA /* ummaapp-Info.plist */,
 				BCAA480B1741019200390DCA /* InfoPlist.strings */,
 				BCAA480E1741019200390DCA /* main.m */,
@@ -184,6 +240,10 @@
 				BCAA48171741019200390DCA /* Default@2x.png in Resources */,
 				BCAA48191741019200390DCA /* Default-568h@2x.png in Resources */,
 				BCAA481C1741019200390DCA /* MainStoryboard.storyboard in Resources */,
+				BC54EFFB17416BEB00BF8DF2 /* 111-user.png in Resources */,
+				BC54EFFC17416BEB00BF8DF2 /* 124-bullhorn.png in Resources */,
+				BC54EFFD17416BEB00BF8DF2 /* 29-heart.png in Resources */,
+				BC54EFFE17416BEB00BF8DF2 /* 96-book.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -194,9 +254,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BC54EFFF1741705800BF8DF2 /* UMSermonsTableViewController.m in Sources */,
 				BCAA480F1741019200390DCA /* main.m in Sources */,
 				BCAA48131741019200390DCA /* UMAppDelegate.m in Sources */,
 				BCAA483617410B2F00390DCA /* UMSermonsTableViewCell.m in Sources */,
+				BC54EFEF174157B800BF8DF2 /* TFHpple.m in Sources */,
+				BC54EFF0174157B800BF8DF2 /* TFHppleElement.m in Sources */,
+				BC54EFF1174157B800BF8DF2 /* XPathQuery.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,6 +347,7 @@
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ummaapp/ummaapp-Prefix.pch";
+				HEADER_SEARCH_PATHS = /usr/include/libxml2;
 				INFOPLIST_FILE = "ummaapp/ummaapp-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
@@ -294,6 +359,7 @@
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ummaapp/ummaapp-Prefix.pch";
+				HEADER_SEARCH_PATHS = "$(SDKROOT)/usr/include/libxml2";
 				INFOPLIST_FILE = "ummaapp/ummaapp-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;

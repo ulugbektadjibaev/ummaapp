@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface UMSermonsTableViewController : UITableViewController
+@interface UMSermonsTableViewController : UITableViewController<UITableViewDelegate,UITableViewDataSource>
 
 @end

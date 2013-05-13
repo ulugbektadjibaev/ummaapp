@@ -10,10 +10,10 @@
 
 @interface UMSermonsTableViewCell : UITableViewCell
 
-@property (nonatomic,strong)UILabel *sermonsDateDay;
-@property (nonatomic,strong)UILabel *sermonsDateMonth;
-@property (nonatomic,strong)UILabel *sermonsDateYear;
-@property (nonatomic,strong)UILabel *sermonsTitle;
-@property (nonatomic,strong)UILabel *sermonsAuthorAndType;
+@property (nonatomic,strong) IBOutlet UILabel *sermonsDateDay;
+@property (nonatomic,strong) IBOutlet UILabel *sermonsDateMonth;
+@property (nonatomic,strong) IBOutlet UILabel *sermonsDateYear;
+@property (nonatomic,strong) IBOutlet UILabel *sermonsTitle;
+@property (nonatomic,strong) IBOutlet UILabel *sermonsAuthorAndType;
 
 @end
