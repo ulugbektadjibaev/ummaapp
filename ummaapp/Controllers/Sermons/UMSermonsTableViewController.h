@@ -1,5 +1,5 @@
 //
-//  UMSecondViewController.h
+//  UMSermonsTableViewController.h
 //  ummaapp
 //
 //  Created by utadjibaev on 5/13/13.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface UMSecondViewController : UIViewController
+@interface UMSermonsTableViewController : UITableViewController
 
 @end

@@ -17,12 +17,7 @@
 		BCAA48171741019200390DCA /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BCAA48161741019200390DCA /* Default@2x.png */; };
 		BCAA48191741019200390DCA /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BCAA48181741019200390DCA /* Default-568h@2x.png */; };
 		BCAA481C1741019200390DCA /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCAA481A1741019200390DCA /* MainStoryboard.storyboard */; };
-		BCAA481F1741019200390DCA /* UMFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCAA481E1741019200390DCA /* UMFirstViewController.m */; };
-		BCAA48211741019200390DCA /* first.png in Resources */ = {isa = PBXBuildFile; fileRef = BCAA48201741019200390DCA /* first.png */; };
-		BCAA48231741019200390DCA /* first@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BCAA48221741019200390DCA /* first@2x.png */; };
-		BCAA48261741019200390DCA /* UMSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCAA48251741019200390DCA /* UMSecondViewController.m */; };
-		BCAA48281741019200390DCA /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = BCAA48271741019200390DCA /* second.png */; };
-		BCAA482A1741019200390DCA /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BCAA48291741019200390DCA /* second@2x.png */; };
+		BCAA483617410B2F00390DCA /* UMSermonsTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BCAA483517410B2F00390DCA /* UMSermonsTableViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,14 +35,10 @@
 		BCAA48161741019200390DCA /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		BCAA48181741019200390DCA /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		BCAA481B1741019200390DCA /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		BCAA481D1741019200390DCA /* UMFirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UMFirstViewController.h; sourceTree = "<group>"; };
-		BCAA481E1741019200390DCA /* UMFirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UMFirstViewController.m; sourceTree = "<group>"; };
-		BCAA48201741019200390DCA /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
-		BCAA48221741019200390DCA /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
-		BCAA48241741019200390DCA /* UMSecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UMSecondViewController.h; sourceTree = "<group>"; };
-		BCAA48251741019200390DCA /* UMSecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UMSecondViewController.m; sourceTree = "<group>"; };
-		BCAA48271741019200390DCA /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
-		BCAA48291741019200390DCA /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
+		BCAA483417410B2F00390DCA /* UMSermonsTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UMSermonsTableViewCell.h; path = Controllers/Sermons/UMSermonsTableViewCell.h; sourceTree = "<group>"; };
+		BCAA483517410B2F00390DCA /* UMSermonsTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UMSermonsTableViewCell.m; path = Controllers/Sermons/UMSermonsTableViewCell.m; sourceTree = "<group>"; };
+		BCAA483817410B5500390DCA /* UMSermonsTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = UMSermonsTableViewController.h; path = Controllers/Sermons/UMSermonsTableViewController.h; sourceTree = "<group>"; };
+		BCAA483917410B5500390DCA /* UMSermonsTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = UMSermonsTableViewController.m; path = Controllers/Sermons/UMSermonsTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,17 +85,10 @@
 		BCAA48081741019200390DCA /* ummaapp */ = {
 			isa = PBXGroup;
 			children = (
+				BCAA483017410A4900390DCA /* Controllers */,
 				BCAA48111741019200390DCA /* UMAppDelegate.h */,
 				BCAA48121741019200390DCA /* UMAppDelegate.m */,
 				BCAA481A1741019200390DCA /* MainStoryboard.storyboard */,
-				BCAA481D1741019200390DCA /* UMFirstViewController.h */,
-				BCAA481E1741019200390DCA /* UMFirstViewController.m */,
-				BCAA48201741019200390DCA /* first.png */,
-				BCAA48221741019200390DCA /* first@2x.png */,
-				BCAA48241741019200390DCA /* UMSecondViewController.h */,
-				BCAA48251741019200390DCA /* UMSecondViewController.m */,
-				BCAA48271741019200390DCA /* second.png */,
-				BCAA48291741019200390DCA /* second@2x.png */,
 				BCAA48091741019200390DCA /* Supporting Files */,
 			);
 			path = ummaapp;
@@ -122,6 +106,25 @@
 				BCAA48181741019200390DCA /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BCAA483017410A4900390DCA /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				BCAA483717410B3400390DCA /* Sermons */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		BCAA483717410B3400390DCA /* Sermons */ = {
+			isa = PBXGroup;
+			children = (
+				BCAA483817410B5500390DCA /* UMSermonsTableViewController.h */,
+				BCAA483917410B5500390DCA /* UMSermonsTableViewController.m */,
+				BCAA483417410B2F00390DCA /* UMSermonsTableViewCell.h */,
+				BCAA483517410B2F00390DCA /* UMSermonsTableViewCell.m */,
+			);
+			name = Sermons;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -181,10 +184,6 @@
 				BCAA48171741019200390DCA /* Default@2x.png in Resources */,
 				BCAA48191741019200390DCA /* Default-568h@2x.png in Resources */,
 				BCAA481C1741019200390DCA /* MainStoryboard.storyboard in Resources */,
-				BCAA48211741019200390DCA /* first.png in Resources */,
-				BCAA48231741019200390DCA /* first@2x.png in Resources */,
-				BCAA48281741019200390DCA /* second.png in Resources */,
-				BCAA482A1741019200390DCA /* second@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -197,8 +196,7 @@
 			files = (
 				BCAA480F1741019200390DCA /* main.m in Sources */,
 				BCAA48131741019200390DCA /* UMAppDelegate.m in Sources */,
-				BCAA481F1741019200390DCA /* UMFirstViewController.m in Sources */,
-				BCAA48261741019200390DCA /* UMSecondViewController.m in Sources */,
+				BCAA483617410B2F00390DCA /* UMSermonsTableViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -321,6 +319,7 @@
 				BCAA482F1741019200390DCA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
